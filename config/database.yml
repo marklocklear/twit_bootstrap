@@ -21,7 +21,7 @@ test:
 production:
   adapter: postgresql
   encoding: utf8
-  database: ezslp3
+  database: blog_production
   username: postgres
   password: homerxxxx
   template: template0 # Required for UTF8 encoding
