@@ -19,7 +19,10 @@ test:
   timeout: 5000
 
 production:
-  adapter: sqlite3
-  database: db/production.sqlite3
-  pool: 5
-  timeout: 5000
+  adapter: postgresql
+  encoding: utf8
+  database: ezslp3
+  username: postgres
+  password: homerxxxx
+  template: template0 # Required for UTF8 encoding
+
